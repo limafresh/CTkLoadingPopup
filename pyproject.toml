@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "CTkLoadingPopup"
+version = "1.0.0"
+dependencies = ["customtkinter"]
+authors = [{name = "limafresh"}]
+maintainers = [{name = "limafresh"}]
+description = "A modern loading popup widget for Python CustomTkinter"
+readme = "README.md"
+license = "CC0-1.0"
+license-files = ["LICENSE"]
+
+[project.urls]
+Homepage = "https://github.com/limafresh/CTkLoadingPopup"
